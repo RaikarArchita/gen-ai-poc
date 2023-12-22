@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/gen-ai-poc/static/css/main.92ad2bc4.css",
+    "main.js": "/gen-ai-poc/static/js/main.b615c794.js",
+    "static/js/787.ea5243e0.chunk.js": "/gen-ai-poc/static/js/787.ea5243e0.chunk.js",
+    "static/media/Group 83.svg": "/gen-ai-poc/static/media/Group 83.5a3cd8fb5cfc3ff790a11ca5d98529e3.svg",
+    "static/media/Control Tower.svg": "/gen-ai-poc/static/media/Control Tower.44733c5b793d4580f55d7d1b1dc3e99f.svg",
+    "static/media/SupplierIcon.svg": "/gen-ai-poc/static/media/SupplierIcon.d10ad6eb5308124992e94b26ba16e9a6.svg",
+    "static/media/ManufacturingIcon.svg": "/gen-ai-poc/static/media/ManufacturingIcon.1fc7ed43d9e0e29d90df72f981d45b0d.svg",
+    "static/media/CustomerIcon.svg": "/gen-ai-poc/static/media/CustomerIcon.a3ec5f47fff7dd9995ccca7eb4865b98.svg",
+    "static/media/RetailIcon.svg": "/gen-ai-poc/static/media/RetailIcon.3c6d6749c4fac518cf3013c25be726f7.svg",
+    "static/media/DistributionIcon.svg": "/gen-ai-poc/static/media/DistributionIcon.afe1e1131cf2c3f415e251b2b904c3eb.svg",
+    "static/media/WarehouseIcon.svg": "/gen-ai-poc/static/media/WarehouseIcon.570122c335758527718175d9881cdce7.svg",
+    "index.html": "/gen-ai-poc/index.html",
+    "static/media/Group 64.svg": "/gen-ai-poc/static/media/Group 64.61f34fb655b25641afab8d70943f2484.svg",
+    "static/media/Group 65.svg": "/gen-ai-poc/static/media/Group 65.d386a8d44b8f3899ed32e148cd7fc9da.svg",
+    "static/media/Group 63.svg": "/gen-ai-poc/static/media/Group 63.f29a23e2a5c66962bb69aece69db448f.svg",
+    "static/media/index.cjs": "/gen-ai-poc/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.92ad2bc4.css.map": "/gen-ai-poc/static/css/main.92ad2bc4.css.map",
+    "main.b615c794.js.map": "/gen-ai-poc/static/js/main.b615c794.js.map",
+    "787.ea5243e0.chunk.js.map": "/gen-ai-poc/static/js/787.ea5243e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92ad2bc4.css",
+    "static/js/main.b615c794.js"
+  ]
+}
