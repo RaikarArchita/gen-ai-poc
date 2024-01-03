@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gen-ai-poc/static/css/main.a62c721c.css",
-    "main.js": "/gen-ai-poc/static/js/main.e7d7717c.js",
+    "main.js": "/gen-ai-poc/static/js/main.cf805cf9.js",
     "static/js/787.ea5243e0.chunk.js": "/gen-ai-poc/static/js/787.ea5243e0.chunk.js",
     "static/media/Group 83.svg": "/gen-ai-poc/static/media/Group 83.5a3cd8fb5cfc3ff790a11ca5d98529e3.svg",
     "static/media/Control Tower.svg": "/gen-ai-poc/static/media/Control Tower.44733c5b793d4580f55d7d1b1dc3e99f.svg",
@@ -17,11 +17,11 @@
     "static/media/Group 63.svg": "/gen-ai-poc/static/media/Group 63.f29a23e2a5c66962bb69aece69db448f.svg",
     "static/media/index.cjs": "/gen-ai-poc/static/media/index.cd351d7c31d0d3fccf96.cjs",
     "main.a62c721c.css.map": "/gen-ai-poc/static/css/main.a62c721c.css.map",
-    "main.e7d7717c.js.map": "/gen-ai-poc/static/js/main.e7d7717c.js.map",
+    "main.cf805cf9.js.map": "/gen-ai-poc/static/js/main.cf805cf9.js.map",
     "787.ea5243e0.chunk.js.map": "/gen-ai-poc/static/js/787.ea5243e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a62c721c.css",
-    "static/js/main.e7d7717c.js"
+    "static/js/main.cf805cf9.js"
   ]
 }
