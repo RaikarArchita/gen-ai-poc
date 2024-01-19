@@ -4,7 +4,6 @@ import './WebChat.css';
 
 const WebChat = ({ className, onFetchToken, token }) => {
   const directLine = useMemo(() => createDirectLine({ token }), [token]);
-
   const styleSet = useMemo(
     () =>
       createStyleSet({
@@ -12,6 +11,20 @@ const WebChat = ({ className, onFetchToken, token }) => {
       }),
     []
   );
+
+  useEffect(() => {
+    const initialUserInput = {
+      type: 'message',
+      id: 'user1', 
+      timestamp: new Date(),
+      from: { id: 'user' },
+      text: 'Hello',
+    };
+    directLine.postActivity(initialUserInput,{ send: false }).subscribe(
+      id => id,
+      error => error
+    );
+  }, [token]);
 
   useEffect(() => {
     onFetchToken();

@@ -14,7 +14,7 @@ const TopBar = () => {
                 backgroundColor: theme.palette.background.default,
                 color: theme.palette.common.black,
                 boxShadow: 'none',
-                height: '10vh',
+                height: '10%',
                 paddingRight: '1%'
             }}>
                 <Toolbar>

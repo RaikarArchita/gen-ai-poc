@@ -11,25 +11,25 @@ export const dropdownObj = [
         label: 'From Port',
         placeholderValue: 'Select from Port',
         name: 'fromPort',
-        options: ['port1', 'port2'],
+        options: ['Port of Barcelona', 'Port of Rotterdam','Port of New York','Port of Shanghai','Port of Singapore'],
     },
     {
         label: 'To Port',
         placeholderValue: 'Select To Port',
         name: 'toPort',
-        options: ['port1', 'port2'],
+        options: ['Port of Mumbai', 'Port of Shanghai','Port of Kaohsiung'],
     },
     {
         label: 'Carrier',
         placeholderValue: 'Select Carrier',
         name: 'carrier',
-        options: ['carrier1', 'carrier2'],
+        options: ['Truck', 'Cargo Ship','Cargo Plane','Plane','Bulk Carrier'],
     },
     {
         label: 'Ship Mode',
         placeholderValue: 'Select Ship Mode',
         name: 'shipMode',
-        options: ['mode1', 'mode2'],
+        options: ['Air', 'Ocean','Road'],
     }
 ]
 

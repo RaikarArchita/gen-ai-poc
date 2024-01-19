@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import React, { Fragment, useCallback, useMemo, useState } from 'react';
+import React, { Fragment, useCallback, useEffect, useMemo, useState } from 'react';
 import { createStyleSet } from 'botframework-webchat';
 import './fabric-icons-inline.css';
 import './MinimizableWebChat.css';
@@ -49,7 +49,7 @@ const MinimizableWebChat = () => {
   return (
     <Fragment>
       {loaded && (<div style={{
-        backgroundColor: 'rgba(0,0,0,0.4)',
+        backgroundColor: 'rgba(0,0,0,0.7)',
         width: '100VW',
         height: '100%',
         zIndex: '30',

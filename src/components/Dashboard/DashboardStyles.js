@@ -8,7 +8,7 @@ export const useStyles = makeStyles({
     },
     KpiContainer: {
         display: 'flex', flexWrap: 'wrap',
-        gap: '2%', rowGap: '1vw', marginTop: '4%'
+        gap: '2%', rowGap: '1vw', marginTop: '4%',
     },
     card1: {
         padding: '8% 7% 23% 7%',

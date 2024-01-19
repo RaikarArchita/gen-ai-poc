@@ -21,19 +21,19 @@ const theme = createTheme({
     typography: {
         fontFamily: 'Poppins',
         h1: {
-            fontSize: '1.7vw',
+            fontSize: '22px',
             fontWeight: 600,
             color: '#2A2A2A',
             lineHeight:'33px'
         },
         h2: {
-            fontSize: '1.2vw',
+            fontSize: '18px',
             fontWeight: 600,
             color: '#2A2A2A',
             lineHeight: '24px'
         },
         h3: {
-            fontSize: '1.1vw',
+            fontSize: '16px',
             fontWeight: 600,
             color: '#2A2A2A',
             lineHeight:'22.5px'
@@ -108,7 +108,7 @@ export const KPICards = styled('div')(({ theme }) => ({
     border: `1px solid ${theme.palette.borderColor}`,
     borderRadius: '1vw',
     width: '10vw',
-    height: '22vh',
+    height:'130px',
     padding: '2% 0 2% 2%',
     display: 'flex',
     flexDirection: 'column',
