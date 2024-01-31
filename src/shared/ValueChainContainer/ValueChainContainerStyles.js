@@ -11,7 +11,7 @@ export const useStyles = makeStyles({
         alignItems: 'center',
         flexDirection: 'column',
         position: 'relative',
-        paddingBottom: '3%'
+        paddingBottom: '2%'
     },
     imageStyles: {
 
@@ -42,5 +42,17 @@ export const useStyles = makeStyles({
         height: '0',
         borderTop: '5px solid transparent',
         borderBottom: '5px solid transparent',
+    },
+    tagOnArrow:{
+        position: 'absolute',
+        top: '-8px',
+        left: '15%',
+        backgroundColor:'#FFFFFF',
+        border:'1px solid #FF0000',
+        borderRadius:'11px',
+        width:'38px',
+        height:'20px',
+        fontSize:'12px',
+        fontWeight:"600"
     }
 })

@@ -1,4 +1,4 @@
-import { Box, AppBar, Typography, Toolbar, IconButton } from '@mui/material'
+import { Box, AppBar, Typography, Toolbar, IconButton, Stack } from '@mui/material'
 import React from 'react'
 import Group63 from '../../assets/Group 63.svg'
 import Group64 from '../../assets/Group 64.svg'
@@ -14,14 +14,12 @@ const TopBar = () => {
                 backgroundColor: theme.palette.background.default,
                 color: theme.palette.common.black,
                 boxShadow: 'none',
-                height: '10%',
-                paddingRight: '1%'
             }}>
                 <Toolbar>
                     <img src={controlTower} alt='' style={{
-                        height:'80%',
-                        marginRight:'1%'
-                    }}/>
+                        height: '80%',
+                        marginRight: '1%'
+                    }} />
                     <Typography
                         variant="h1"
                     >
@@ -36,17 +34,20 @@ const TopBar = () => {
                         <SearchIcon style={{ color: '#ADAFD6', marginTop: '1%' }} />
                     </Search>
                     <Box sx={{ flexGrow: 1 }} />
-                    <Box sx={{ display: { xs: 'none', md: 'flex', gap: '5%' } }}>
-                        <IconButton size="large">
-                            <img src={Group65} alt='' />
-                        </IconButton>
-                        <IconButton size="large">
-                            <img src={Group63} alt='' />
-                        </IconButton>
-                        <IconButton size="large">
-                            <img src={Group64} alt='' />
-                        </IconButton>
-                    </Box>
+                    <Stack direction='column'>
+                        <Box sx={{ display: { xs: 'none', md: 'flex', gap: '28%',marginLeft:'10%'} }}>
+                            <IconButton size="small">
+                                <img src={Group65} alt='' />
+                            </IconButton>
+                            <IconButton size="small">
+                                <img src={Group63} alt='' />
+                            </IconButton>
+                            <IconButton size="small">
+                                <img src={Group64} alt='' />
+                            </IconButton>
+                        </Box>
+                        <Typography variant='body2' ml={7}>Logistics Manager | 3 Feb 2024</Typography>
+                    </Stack>
                 </Toolbar>
             </AppBar>
         </Box>

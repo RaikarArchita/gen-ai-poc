@@ -11,7 +11,7 @@ export const dropdownObj = [
         label: 'From Port',
         placeholderValue: 'Select from Port',
         name: 'fromPort',
-        options: ['Port of Barcelona', 'Port of Rotterdam','Port of New York','Port of Shanghai','Port of Singapore'],
+        options: [ 'Port of Rotterdam','Port of Barcelona','Port of New York','Port of Shanghai','Port of Singapore'],
     },
     {
         label: 'To Port',
@@ -23,13 +23,13 @@ export const dropdownObj = [
         label: 'Carrier',
         placeholderValue: 'Select Carrier',
         name: 'carrier',
-        options: ['Truck', 'Cargo Ship','Cargo Plane','Plane','Bulk Carrier'],
+        options: ['Cargo Ship','Truck', 'Cargo Plane','Plane','Bulk Carrier'],
     },
     {
         label: 'Ship Mode',
         placeholderValue: 'Select Ship Mode',
         name: 'shipMode',
-        options: ['Air', 'Ocean','Road'],
+        options: ['Ocean','Air', 'Road'],
     }
 ]
 
@@ -55,6 +55,7 @@ export const siteInfo = [
         countColor: theme.palette.green
     }
 ]
+
 export const valueChain = [
     {
         headerLabel: 'Supplier',
@@ -100,4 +101,32 @@ export const valueChain = [
             },
         ]
     }
+]
+
+export const exceptionCategory = [
+    {
+        label: 'Customs Clearance Issue',
+        value: 32,
+        color:'#7705BC'
+    },
+    {
+        label: 'Maritime Congestion',
+        value: 20,
+        color:'#AD30C3'
+    },
+    {
+        label: 'Extreme Weather',
+        value: 21,
+        color:'#58CED6'
+    },
+    {
+        label: 'Route Closure',
+        value: 21,
+        color:'#01B2FE'
+    },
+    {
+        label: 'Geopolitical Issue',
+        value: 6,
+        color:'#010BFE'
+    },
 ]

@@ -18,7 +18,7 @@ export const iconComponent = (props) => {
 
 const CustomDropDown = ({ label, placeholderValue, name, options }) => {
     const classes = useStyles()
-    const [selectedValue, setSelectedValue] = useState('');
+    const [selectedValue, setSelectedValue] = useState(options[0]);
 
     const handleChange = (event) => {
         setSelectedValue(event.target.value);
@@ -26,8 +26,8 @@ const CustomDropDown = ({ label, placeholderValue, name, options }) => {
 
     return (
         <Stack direction='column'>
-            <InputLabel sx={{ typography: theme.typography.subtitle2 }}>{label}</InputLabel>
-            <FormControl sx={{ minWidth: 170, mt: 1 }} size="small">
+            <InputLabel sx={{ typography: theme.typography.subtitle2,marginLeft:'4%',marginBottom:'1%' }}>{label}</InputLabel>
+            <FormControl sx={{ minWidth: 170}} size="small">
                 <Select
                     value={selectedValue}
                     onChange={handleChange}
@@ -53,14 +53,9 @@ const CustomDropDown = ({ label, placeholderValue, name, options }) => {
                     }}
                     IconComponent={iconComponent}
                 >
-                    <MenuItem value="" disabled>
-                        <em className={classes.placeholderStyles}>{placeholderValue} </em>
+                    <MenuItem value={options[0]} style={{ fontSize: '1vw' }}>
+                        {options[0]}
                     </MenuItem>
-                    {options.map((option) => (
-                        <MenuItem key={option} value={option} style={{ fontSize: '1vw' }}>
-                            {option}
-                        </MenuItem>
-                    ))}
                 </Select>
             </FormControl>
         </Stack>

@@ -7,7 +7,7 @@ export const useStyles = makeStyles({
     },
     progressbar: {
         display: 'flex',
-        height: '0.6vw',
+        height: '7px',
         overflow: 'hidden',
         marginTop: '3%',
     },

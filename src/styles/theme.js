@@ -104,16 +104,16 @@ export const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-export const KPICards = styled('div')(({ theme }) => ({
-    border: `1px solid ${theme.palette.borderColor}`,
+export const LeftPanelCards = styled('div')(({ theme }) => ({
+    border: '1.6px solid #808080',
     borderRadius: '1vw',
-    width: '10vw',
-    height:'130px',
+    width: '269px',
+    height:'115px',
     padding: '2% 0 2% 2%',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-between',
-    alignItems: 'stretch',
+    marginBottom:'5%',
+    gap:'1.5vw'
 }))
 
 export const PaperComponent = styled(Paper)(({ theme }) => ({

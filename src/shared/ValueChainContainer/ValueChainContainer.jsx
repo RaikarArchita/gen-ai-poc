@@ -30,14 +30,15 @@ const ValueChainContainer = ({ valueChain }) => {
                                             className={classes.arrowLine}
                                             style={{
                                                 width: item.innerObj.length - 1 === subIndex ? '70px' : '60px',
-                                                backgroundColor: index <= 1 ? '#000000' : '#FF0000',
+                                                backgroundColor: '#000000',
                                             }}
                                         >
+                                            {index===1 &&
+                                                <div className={classes.tagOnArrow}>47</div>}
                                             <div
                                                 className={classes.arrowTriangle}
                                                 style={{
-                                                    borderLeft: index <= 1
-                                                        ? '10px solid #000000' : '10px solid #FF0000',
+                                                    borderLeft: '10px solid #000000',
                                                 }}
                                             />
                                         </div>
